@@ -3,7 +3,7 @@
 echo Set password for Admin User
 net user administrator * /active:yes
 
-echo navn pa bruker som skal slettes:
+echo Enter account name to delete user:
 set /p username=
 net user %username% /delete
 pause
